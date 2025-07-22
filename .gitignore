@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.idea/
+.venv/
+*.exe
+*.rar
+*.png
+*.mp3
+*.webm
+*.m4a
+*.part
+*.log

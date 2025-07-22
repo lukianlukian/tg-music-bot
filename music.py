@@ -4,7 +4,7 @@ import telebot
 from telebot import types
 from yt_dlp import YoutubeDL
 
-Bot = telebot.TeleBot("7949282737:AAE6nVeoNoL-nMdF_U0h3itKKV1FClIoRBU")
+Bot = telebot.TeleBot(os.getenv("BOT_TOKEN"))
 
 # 🔧 Словник для збереження результатів пошуку по chat_id
 track_results = {}

@@ -10,7 +10,8 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 if not BOT_TOKEN:
-    raise ValueError("❌ BOT_TOKEN не знайдено в .env файлі.")
+    print("❌ BOT_TOKEN не знайдено в змінних середовища")
+    exit(1)
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
